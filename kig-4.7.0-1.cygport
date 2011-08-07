@@ -1,0 +1,6 @@
+inherit kde4
+
+
+PATCH_URI="4.5.5-python-version.patch"
+
+CYGCMAKE_ARGS="-DPYTHON_VERSIONS=python${PYTHON_VERSION}"
