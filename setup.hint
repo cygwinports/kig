@@ -1,4 +1,0 @@
-category: KDE Math
-requires: libboost_python1.48 libgcc1 libkdecore5 libQtCore4 libQtGui4 libQtSvg4 libQtXml4 libstdc++6 python
-sdesc: "KDE interactive geometry"
-ldesc: "KDE education suite"
