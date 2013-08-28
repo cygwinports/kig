@@ -1,11 +1,11 @@
 inherit kde4 python
 
 NAME="kig"
-VERSION=4.8.5
+VERSION=4.10.5
 RELEASE=1
-CATEGORY="KDE Math"
+CATEGORY="Math"
 SUMMARY="KDE interactive geometry"
-DESCRIPTION="KDE education suite"
+DESCRIPTION="Part of the KDE education suite"
 
 PATCH_URI="4.5.5-python-version.patch"
 
