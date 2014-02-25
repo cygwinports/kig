@@ -1,7 +1,7 @@
 inherit kde4 python
 
 NAME="kig"
-VERSION=4.10.5
+VERSION=4.11.5
 RELEASE=1
 CATEGORY="Math"
 SUMMARY="KDE interactive geometry"
@@ -9,4 +9,5 @@ DESCRIPTION="Part of the KDE education suite"
 
 PATCH_URI="4.5.5-python-version.patch"
 
-CYGCMAKE_ARGS="-DPYTHON_VERSIONS=python${PYTHON_VERSION}"
+# FindBoostPython now uses pkgconfig
+CYGCMAKE_ARGS="-DPYTHON_VERSIONS=python-${PYTHON_VERSION}"
