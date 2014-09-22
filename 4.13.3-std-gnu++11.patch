@@ -1,0 +1,11 @@
+--- origsrc/kig-4.13.3/CMakeLists.txt	2014-06-07 23:58:50.000000000 -0500
++++ src/kig-4.13.3/CMakeLists.txt	2014-09-21 23:14:04.329583400 -0500
+@@ -26,7 +26,7 @@ add_definitions (${QT_DEFINITIONS} ${KDE
+ include_directories (${QDBUS_INCLUDE_DIRS}  ${CMAKE_SOURCE_DIR} ${CMAKE_BINARY_DIR} ${KDE4_INCLUDES})
+ 
+ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID STREQUAL "Clang" OR CMAKE_CXX_COMPILER_ID STREQUAL "Intel")
+-  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
++  set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=gnu++11")
+ endif()
+ 
+ kde4_no_enable_final(kig)
