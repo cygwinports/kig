@@ -9,4 +9,4 @@ DESCRIPTION="Part of the KDE education suite"
 
 PATCH_URI="4.13.3-std-gnu++11.patch"
 
-REQUIRES="kate4-part"
+REQUIRES="kate4-part kde-runtime"
