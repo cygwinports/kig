@@ -2,7 +2,7 @@ inherit kf5 python
 
 NAME="kig"
 VERSION=15.04.3
-RELEASE=2
+RELEASE=3
 CATEGORY="Math"
 SUMMARY="KDE interactive geometry"
 DESCRIPTION="Part of the KDE education suite"
